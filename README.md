@@ -150,7 +150,7 @@ train_image_gen.class_indices
 results = model.fit(train_image_gen,epochs=2,validation_data=test_image_gen)
 model.save('cell_model.h5')
 
-print("Nivetha-212222230101")
+print("Dhivyapriya-212222230032")
 losses = pd.DataFrame(model.history.history)
 losses[['loss','val_loss']].plot()
 model.metrics_names
